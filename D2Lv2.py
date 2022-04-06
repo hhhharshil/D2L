@@ -24,7 +24,7 @@ for address in book:
     country = response["country_name"]
     ip = response["ip"]
 
-
+    print('Domain: ' + address)
     print('IP: ' + str(ip))
     print('Organization: ' + str(org))
     print('Country: ' + str(country))
